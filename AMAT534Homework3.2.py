@@ -166,12 +166,11 @@ for i in range(38, 40):
 plt.suptitle('Original Face and Projection of Face',fontsize=16)
 plt.figure(5)
 
-
-
 # # --------------------------- Projection of Face 37 ------------------------- #
 # # Citation: https://github.com/kjohansmeyer/SVDImageCompression/blob/main/BWCompression.py
 
 modes = [25,50,100,200,400,800,1600]
+# modes = [1,2,3,5,10,15,25]
 
 fig = plt.figure(figsize=(10, 10))
 fig.add_subplot(2, 4, 1)
@@ -192,7 +191,6 @@ for i in range(0,len(modes)):
 
 plt.figure(6)
 plt.suptitle('Original Face and Facial Projections',fontsize=16)
-
 
 # --------------------------- Projection of Face 38 ------------------------- #
 
